@@ -1,0 +1,10 @@
+Class Tank {
+    
+    int ammunition = 8;
+    
+    void shootMainGun(Target target) {
+        target.getsShotAt();
+        --ammunution;
+    }
+    
+}
